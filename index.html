@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Katik</title>
+    </head>
+    <body class="contrainer">
+        <!--Bagian haeader website-->
+        <header class="header">
+            <span class="judul" id="judul-besar">Katik</span>
+            <span class="judul" id="judul-kecil">Kalkulator Matematik</span>
+        </header>
+        <!--Letak konten utama-->
+        <main class="main">
+            <!-- Kata penyambut dan menu -->
+            <section class="menu-atas">
+                <h1>Welcome to Katik</h1>
+                <p>Hai Sobat, Selamat data di Katik</p>
+                <p>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar.</p>
+                <button class="menu-pilihan" id="pilihan-persegi">Persegi</button>
+                <button class="menu-pilihan" id="pilihan-panjang">Persegi Panjang</button>
+            </section>
+            <!-- Bagian Kalkulator -->
+            <section class="menu-kalkulator">
+                <!-- Bagian hitung luas persegi -->
+                <div id="menu-luas-persegi">
+                    <div class="box-banner">
+                        <span class="banner-kalkulator">Luas Persegi</span>
+                    </div>
+                    <div class="box-hitung">
+                        <div class="sudut-atas">
+                            <span class="span-atas">A</span>
+                            <span class="span-atas">B</span>
+                        </div>
+                        <div class="kotak"></div>
+                        <div class="sudut-atas">
+                            <span class="span-bawah">C</span>
+                            <span class="span-bawah">D</span>
+                        </div>
+                        <span>Persegi</span>
+                    </div>
+                </div>
+                <!-- Bagian hitung keliling persegi -->
+                <!-- <div id="menu-keliling-persegi">
+                    <span class="banner-kalkulator">Keliling Persegi</span>
+                </div> -->
+            </section>
+            <!-- <section class="menu kalkulator">
+                <div id="menu-luas-panjang">
+                    <span>Luas Persegi Panjang</span>
+                </div>
+                <div id="menu-keliling-panjang">
+                    <span>Luas Persegi Panjang</span>
+                </div>
+            </section> -->
+        </main>
+        <!--Bagian paling bawah dari web-->
+        <footer>
+
+        </footer>
+
+    </body>
+    <script src="script.js"></script>
+</html>

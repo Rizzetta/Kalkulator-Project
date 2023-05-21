@@ -18,7 +18,7 @@
 
 .main {
     background-color: white;
-    margin: 3% 2%;
+    margin: 3% 15%;
     margin-bottom: 0%;
 }
 
@@ -137,7 +137,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
     margin-top: 2%;
     padding-bottom: 10px;
 }
@@ -147,8 +146,21 @@
     font-weight: 700;
     margin-bottom: 10px;
 }
+
+.rumus-note {
+    margin-left: 5%;
+}
+
 .perhitungan input {
     width: 90%;
+}
+
+#hasil-hitung1 {
+    display: none;
+}
+
+#hasil-hitung2 {
+    display: none;
 }
 
 .button-hitung {
@@ -175,8 +187,8 @@
 .footer {
     text-align: center;
     background-color: white;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-bottom: 3%;
 }
 

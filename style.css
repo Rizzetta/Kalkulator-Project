@@ -19,6 +19,7 @@
 .main {
     background-color: white;
     margin: 3% 2%;
+    margin-bottom: 0%;
 }
 
 #judul-besar{
@@ -95,6 +96,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-weight: 700;
 }
 
 .sudut-atas {
@@ -116,5 +118,71 @@
 .kotak {
     height: 80px;
     width: 80px;
-    border: 1px solid black;
+    border: 3px solid rgb(194, 0, 0);
+}
+
+.rumus-luas {
+    display: flex;
+    font-weight: 700;
+    justify-content: center;
+}
+
+.keterangan-rumus {
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.perhitungan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2%;
+    padding-bottom: 10px;
+}
+
+.banner-perhitungan {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.perhitungan input {
+    width: 90%;
+}
+
+.button-hitung {
+    color: white;
+    background-color: #008CBA;
+    border: none;
+    border-radius: 4px;
+    margin: 10px;
+    font-size: 12px;
+    padding: 12px 28px;
+}
+
+.button-reset {
+    color: white;
+    background-color: #f0881f;
+    border: none;
+    border-radius: 4px;
+    margin: 10px;
+    margin-left: 90%;
+    font-size: 12px;
+    padding: 10px 12px;
+}
+
+.footer {
+    text-align: center;
+    background-color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+}
+
+.footer p {
+    margin-top: 0;
+    padding: 10px;
+    padding-top: 20px;
+    font-size: 12px;
 }

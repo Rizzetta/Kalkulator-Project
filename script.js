@@ -68,3 +68,26 @@ function hideHasil2() {
 
     return false;
 };
+
+function pilihPanjang() {
+  var x = document.getElementById("kalkulator-panjang");
+  var y = document.getElementById("kalkulator-persegi");
+  if (x.style.display != "block" ) {
+    x.style.display = "block";
+    y.style.display = "none";
+  }
+
+  return false;
+};
+
+function pilihPersegi() {
+  var x = document.getElementById("kalkulator-panjang");
+  var y = document.getElementById("kalkulator-persegi");
+  if (x.style.display != "none" ) {
+    x.style.display = "none";
+    y.style.display = "block";
+  }
+
+  return false;
+};
+

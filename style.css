@@ -22,6 +22,14 @@
     margin-bottom: 0%;
 }
 
+#kalkulator-persegi {
+    display: block;
+}
+
+#kalkulator-panjang {
+    display: none;
+}
+
 #judul-besar{
     padding-right: 5px;
     font-style: italic;
